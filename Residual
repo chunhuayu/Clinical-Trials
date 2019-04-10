@@ -1,5 +1,6 @@
 Defination:
          The difference between a observed value and the fitted value by a model
+         e_{i}= Y_{i}-\widehat{Y_{i}}
 
 Properties of Residuals:
          Mean is equal 0
