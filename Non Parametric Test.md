@@ -44,3 +44,13 @@
 * Mann-Whitney test. Use this test to compare differences between two independent groups when dependent variables are either ordinal or continuous.
 Mood’s Median test. Use this test instead of the sign test when you have two independent samples.
 Spearman Rank Correlation.Use when you want to find a correlation between two sets of data.
+
+| NONPARAMETRIC TEST	| PARAMETRIC ALTERNATIVE |
+|:--------------------:|:------------------------:|
+|1-sample sign test	|One-sample Z-test, One sample t-test|
+|1-sample Wilcoxon Signed Rank test	|One sample Z-test, One sample t-test|
+|Friedman test|	Two-way ANOVA|
+|Kruskal-Wallis test|	One-way ANOVA|
+|Mann-Whitney test|	Independent samples t-test|
+|Mood’s Median test	|One-way ANOVA|
+|Spearman Rank Correlation|	Correlation Coefficient|
