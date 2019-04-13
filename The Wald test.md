@@ -1,6 +1,10 @@
 # The Wald test 
 * (also called the Wald Chi-Squared Test) is a way to find out if explanatory variables in a model are significant.
 * The test can be used for a multitude of different models including those with binary variables or continuous variables.
+## The Wald test is usually talked about in terms of chi-squared
+* Because the sampling distribution (as n approaches infinity) is usually known. 
+* This variant of the test is sometimes called the Wald Chi-Squared Test to differentiate it from the Wald Log-Linear Chi-Square Test, which is a non-parametric variant based on the log odds ratios.
+
 
 # Significant 
 * Means that they add something to the model; 
@@ -15,6 +19,3 @@ you might be studying if weight is affected by eating junk food twice a week. â€
 If the Wald test shows that the parameters for certain explanatory variables are zero, you can remove the variables from 
 the model. If the test shows the parameters are not zero, you should include the variables in the model. 
 
-# The Wald test is usually talked about in terms of chi-squared.
-* Because the sampling distribution (as n approaches infinity) is usually known. 
-* This variant of the test is sometimes called the Wald Chi-Squared Test to differentiate it from the Wald Log-Linear Chi-Square Test, which is a non-parametric variant based on the log odds ratios.
