@@ -42,8 +42,10 @@
 * Kruskal-Wallis test. Use this test instead of a one-way ANOVA to find out if two or more medians are different. Ranks of the data points are used for the calculations, rather than the data points themselves.
 * The Mann-Kendall Trend Test looks for trends in time-series data.
 * Mann-Whitney test. Use this test to compare differences between two independent groups when dependent variables are either ordinal or continuous.
-Mood’s Median test. Use this test instead of the sign test when you have two independent samples.
-Spearman Rank Correlation.Use when you want to find a correlation between two sets of data.
+* Mood’s Median test. Use this test instead of the sign test when you have two independent samples.
+* Spearman Rank Correlation.Use when you want to find a correlation between two sets of data.
+
+### The following table lists the nonparametric tests and their parametric alternatives.
 
 | NONPARAMETRIC TEST	| PARAMETRIC ALTERNATIVE |
 |:--------------------:|:------------------------:|
