@@ -4,6 +4,8 @@
 * Continuous variable: a variable with infinite number of values, like “time” or “weight”.
 * Discrete variable: a variable that can only take on a certain number of values. For example, “number of cars in a parking lot” is discrete because a car park can only hold so many cars.
 * Ordinal variable: similar to a categorical variable, but there is a clear order. For example, income levels of low, middle, and high could be considered ordinal.
+* Nominal variable: another name for categorical variable.
+* A ranked variable is an ordinal variable; a variable where every data point can be put in order (1st, 2nd, 3rd, etc.).
 ---
 * Confounding variable: extra variables that have a hidden effect on your experimental results.
 * Control variable: a factor in an experiment which must be held constant. For example, in an experiment to determine whether light makes plants grow faster, you would have to control for soil quality and water.
@@ -11,14 +13,11 @@
 * Dependent variable: the outcome of an experiment. As you change the independent variable, you watch what happens to the dependent variable.
 * Independent variable: a variable that is not affected by anything that you, the researcher, does. Usually plotted on the x-axis.
 ---
-* Lurking variable: a “hidden” variable the affects the relationship between the independent and dependent variables.A measurement variable has a number associated with it. It’s an “amount” of something, or a”number” of something.
-* Nominal variable: another name for categorical variable.
-
 * Qualitative variable: a broad category for any variable that can’t be counted (i.e. has no numerical value). Nominal and ordinal variables fall under this umbrella term.
 * Quantitative variable: A broad category that includes any variable that can be counted, or has a numerical value associated with it. Examples of variables that fall into this category include discrete variables and ratio variables.
-
+---
+* Lurking variable: a “hidden” variable the affects the relationship between the independent and dependent variables.A measurement variable has a number associated with it. It’s an “amount” of something, or a”number” of something.
 * Random variables are associated with random processes and give numbers to outcomes of random events.
-* A ranked variable is an ordinal variable; a variable where every data point can be put in order (1st, 2nd, 3rd, etc.).
 * Ratio variables: similar to interval variables, but has a meaningful zero.
 
 # Less Common Types of Variables
