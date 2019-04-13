@@ -2,7 +2,7 @@
 * Generally parametric test, which makes assumptions about a population’s parameters (for example, the mean or standard deviation) comes from a normal distribution.
 * When the word “non parametric” is used in stats, it doesn’t quite mean that you know nothing about the population. It usually means that you know the population data does not have a normal distribution.
 * For example, one assumption for the one way ANOVA is that the data comes from a normal distribution. 
-##### If your data isn’t normally distributed, you can’t run an ANOVA, but you can run the nonparametric alternative–the Kruskal-Wallis test.
+### _If your data isn’t normally distributed, you can’t run an ANOVA, but you can run the nonparametric alternative–the Kruskal-Wallis test_
 
 If at all possible, you should us parametric tests, as they tend to be more accurate. Parametric tests have greater statistical power, which means they are likely to find a true significant effect. Use nonparametric tests only if you have to (i.e. you know that assumptions like normality are being violated). Nonparametric tests can perform well with non-normal continuous data if you have a sufficiently large sample size (generally 15-20 items in each group).
 
