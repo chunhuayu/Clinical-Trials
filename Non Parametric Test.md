@@ -54,3 +54,14 @@ Spearman Rank Correlation.Use when you want to find a correlation between two se
 |Mann-Whitney test|	Independent samples t-test|
 |Mood’s Median test	|One-way ANOVA|
 |Spearman Rank Correlation|	Correlation Coefficient|
+
+# Advantages and Disadvantages
+### Compared to parametric tests, nonparametric tests have several advantages, including:
+* More statistical power when assumptions for the parametric tests have been violated. When assumptions haven’t been violated, they can be almost as powerful.
+* Fewer assumptions (i.e. the assumption of normality doesn’t apply).
+* Small sample sizes are acceptable.
+* They can be used for all data types, including nominal variables, interval variables, or data that has outliers or that has been measured imprecisely.
+### However, they do have their disadvantages. The most notable ones are:
+* Less powerful than parametric tests if assumptions haven’t been violated.
+* More labor-intensive to calculate by hand (for computer calculations, this isn’t an issue).
+* Critical value tables for many tests aren’t included in many computer software packages. This is compared to tables for parametric tests (like the z-table or t-table) which usually are included.
