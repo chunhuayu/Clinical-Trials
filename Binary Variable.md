@@ -5,7 +5,7 @@
 * Male / Female.
 * Black / White
 
-* Although binary variables are commonly used in statistics (i.e. for the binomial distribution), the term “binary variable” is seldom used. 
+## Although binary variables are commonly used in statistics (i.e. for the binomial distribution), the term “binary variable” is seldom used. 
 * This may be in part because it’s rare to come across a variable that only has two choices outside of a Bernoulli distribution.
 
 * A binary variable is the same thing as a “bit” in computer science or a “truth value” in mathematical logic. 
