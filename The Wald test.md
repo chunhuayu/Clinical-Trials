@@ -12,10 +12,9 @@
 # Insignificant
 * Variables that add nothing can be deleted without affecting the model in any meaningful way. 
 
-# The null hypothesis for the test is: 
+# The null hypothesis for the test 
 * some parameter = some value. 
 * __For example__:
 you might be studying if weight is affected by eating junk food twice a week. “Weight” would be your parameter. The value could be zero (indicating that you don’t think weight is affected by eating junk food). If the null hypothesis is rejected, it suggests that the variables in question can be removed without much harm to the model fit. 
 If the Wald test shows that the parameters for certain explanatory variables are zero, you can remove the variables from 
 the model. If the test shows the parameters are not zero, you should include the variables in the model. 
-
