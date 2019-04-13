@@ -1,7 +1,7 @@
 # The Wald test 
 (also called the Wald Chi-Squared Test) is a way to find out if explanatory variables in a model are significant.
 
-# “Significant” 
+# Significant 
 means that they add something to the model; variables that add nothing can be deleted without affecting the model in any meaningful way. The test can be used for a multitude of different models including those with binary variables or continuous variables.
 
 # The null hypothesis for the test is: 
