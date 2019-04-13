@@ -1,16 +1,16 @@
-### A “variable” in algebra really just means one thing—an unknown value. However, in statistics, you’ll come across dozens of types of variables in statistics. In most cases, the word still means that you’re dealing with something that’s unknown, but—unlike in algebra—that unknown isn’t always a number. Some variable types are used more than others. For example, you’ll be much more likely to come across continuous variables than you would dummy variables.
+#### A “variable” in algebra really just means one thing—an unknown value. However, in statistics, you’ll come across dozens of types of variables in statistics. In most cases, the word still means that you’re dealing with something that’s unknown, but—unlike in algebra—that unknown isn’t always a number. Some variable types are used more than others. For example, you’ll be much more likely to come across continuous variables than you would dummy variables.
 # Common Types of Variables
 * Categorical variable: variables than can be put into categories. For example, the category “Toothpaste Brands” might contain the variables Colgate and Aquafresh.
 * Continuous variable: a variable with infinite number of values, like “time” or “weight”.
 * Discrete variable: a variable that can only take on a certain number of values. For example, “number of cars in a parking lot” is discrete because a car park can only hold so many cars.
 * Ordinal variable: similar to a categorical variable, but there is a clear order. For example, income levels of low, middle, and high could be considered ordinal.
-
+---
 * Confounding variable: extra variables that have a hidden effect on your experimental results.
 * Control variable: a factor in an experiment which must be held constant. For example, in an experiment to determine whether light makes plants grow faster, you would have to control for soil quality and water.
-
+---
 * Dependent variable: the outcome of an experiment. As you change the independent variable, you watch what happens to the dependent variable.
 * Independent variable: a variable that is not affected by anything that you, the researcher, does. Usually plotted on the x-axis.
-
+---
 * Lurking variable: a “hidden” variable the affects the relationship between the independent and dependent variables.A measurement variable has a number associated with it. It’s an “amount” of something, or a”number” of something.
 * Nominal variable: another name for categorical variable.
 
