@@ -5,7 +5,7 @@
 * It has a similar role to residual variance from ANOVA in linear models (RSS).
 # Expression
 * D = 2[log-likelihood(saturated model) − log-likelihood(proposed model)].
-### the saturated model 
+### The saturated model 
 * It is a model with a parameter for every observation so that the data are fitted exactly.
 ### Used for statistical hypothesis testing
 * This expression of deviance is simply 2 times the log-likelihood ratio of the full model compared to the reduced model. 
