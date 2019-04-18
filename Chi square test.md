@@ -55,9 +55,9 @@ The p-value(<0.0001) indicates that these variables are not independent of each 
       weight x;
       run;
 ### The following is R code for this example.
-      a=matrix(c(3,5,5,7,7,7,8,9,10,11,2.3,1.9,1,0.7,0.3,1,1.05,0.45,0.7,0.3),ncol = 2)
-      chisq.test(a)
+      kw=matrix(c(892,1165,954,185,149,66),ncol = 3)
+      chisq.test(kw)
 ###### The output of R
       Pearson's Chi-squared test
-      data:  a
-      X-squared = 8.9294, df = 9, p-value = 0.4438
+      data:  kw
+      X-squared = 503.7, df = 2, p-value < 2.2e-16
