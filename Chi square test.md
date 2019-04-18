@@ -13,3 +13,4 @@
 * where fo = the observed frequency (the observed counts in the cells)
 * fe = the expected frequency if NO relationship existed between the variables
 * As depicted in the formula, the Chi-Square statistic is based on the difference between what is actually observed in the data and what would be expected if there was truly no relationship between the variables.
+* sum((fo-fe)^2/fe)
