@@ -14,3 +14,8 @@
 * fe = the expected frequency if NO relationship existed between the variables
 * As depicted in the formula, the Chi-Square statistic is based on the difference between what is actually observed in the data and what would be expected if there was truly no relationship between the variables.
 * sum((fo-fe)^2/fe)
+### What are special concerns with regard to the Chi-Square statistic?
+* There are a number of important considerations when using the Chi-Square statistic to evaluate a crosstabulation.  
+* Because of how the Chi-Square value is calculated, it is extremely sensitive to sample size – when the sample size is too large (~500), * almost any small difference will appear statistically significant.  
+* It is also sensitive to the distribution within the cells, and some of Statistical software gives a warning message if cells have fewer than 5 cases. 
+* This can be addressed by always using categorical variables with a limited number of categories (e.g., by combining categories if necessary to produce a smaller table).
