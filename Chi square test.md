@@ -21,8 +21,9 @@
 * This can be addressed by always using categorical variables with a limited number of categories (e.g., by combining categories if necessary to produce a smaller table).
 ### an example
 > k variable has three levels . w variable has two exclusive levels. there is an association between k and w.
+
 |table|level 1 | level 2 | level 3|
-|:---:|:------:|:-------:|:-------:|
+|:---:|:------:|:-------:|:-----:|
 |forvor|892|1165|954|
 |oppose|185|149|66|
 
