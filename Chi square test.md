@@ -40,7 +40,7 @@
 The p-value(<0.0001) indicates that these variables are not independent of each other and that there is a statistically significant relationship between the categorical variables.
 
 ### the following is SAS code for this example.
-> data chi2;
+      data chi2;
 do k= 1 to 2;
 do w= 1 to 3;
 input x @@;
@@ -50,7 +50,7 @@ end;
 cards;
 892 1165 954 185 149 66
 ;
-> proc freq data=chi2;
+      proc freq data=chi2;
 tables k* w/ chisq;
 weight x;
 run;
