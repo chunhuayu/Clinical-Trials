@@ -41,16 +41,16 @@ The p-value(<0.0001) indicates that these variables are not independent of each 
 
 ### the following is SAS code for this example.
       data chi2;
-do k= 1 to 2;
-do w= 1 to 3;
-input x @@;
-output;
-end;
-end;
-cards;
-892 1165 954 185 149 66
-;
+      do k= 1 to 2;
+      do w= 1 to 3;
+      input x @@;
+      output;
+      end;
+      end;
+      cards;
+      892 1165 954 185 149 66
+      ;
       proc freq data=chi2;
-tables k* w/ chisq;
-weight x;
-run;
+      tables k* w/ chisq;
+      weight x;
+      run;
