@@ -19,3 +19,22 @@
 * Because of how the Chi-Square value is calculated, it is extremely sensitive to sample size – when the sample size is too large (~500), * almost any small difference will appear statistically significant.  
 * It is also sensitive to the distribution within the cells, and some of Statistical software gives a warning message if cells have fewer than 5 cases. 
 * This can be addressed by always using categorical variables with a limited number of categories (e.g., by combining categories if necessary to produce a smaller table).
+### an example
+> k variable has three levels . w variable has two exclusive levels. there is an association between k and w.
+|table|level 1 | level 2 | level 3|
+|:---:|:------:|:-------:|:-------:|
+|forvor|892|1165|954|
+|oppose|185|149|66|
+
+### chi square test table
+|Statistic| DF| Value| Prob |
+|:-------:|:-----:|:-----:|:-----:|
+|Chi-Square| 2| 58.3229| <.0001| 
+|Likelihood Ratio Chi-Square| 2 |59.5927 |<.0001 |
+| Mantel-Haenszel Chi-Square |1| 58.1227 |<.0001 |
+|Phi Coefficient|  | 0.1308|   |
+|Contingency Coefficient | | 0.1297||   
+|Cramer's V|  | 0.1308||   
+### conclusion 
+The p-value(<0.0001) indicates that these variables are not independent of each other and that there is a statistically significant relationship between the categorical variables.
+
