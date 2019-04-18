@@ -39,7 +39,7 @@
 ### conclusion 
 The p-value(<0.0001) indicates that these variables are not independent of each other and that there is a statistically significant relationship between the categorical variables.
 
-### the following is SAS code for this example.
+### The following is SAS code for this example.
       data chi2;
       do k= 1 to 2;
       do w= 1 to 3;
@@ -54,3 +54,6 @@ The p-value(<0.0001) indicates that these variables are not independent of each 
       tables k* w/ chisq;
       weight x;
       run;
+### The following is R code for this example.
+      a=matrix(c(3,5,5,7,7,7,8,9,10,11,2.3,1.9,1,0.7,0.3,1,1.05,0.45,0.7,0.3),ncol = 2)
+      chisq.test(a)
