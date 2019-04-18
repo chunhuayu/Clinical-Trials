@@ -50,7 +50,7 @@ end;
 cards;
 892 1165 954 185 149 66
 ;
-proc freq data=chi2;
+> proc freq data=chi2;
 tables k* w/ chisq;
 weight x;
 run;
