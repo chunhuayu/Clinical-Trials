@@ -1,5 +1,6 @@
 # assumption
 * Linear regression is an analysis that assesses whether one or more predictor variables explain the dependent (criterion) variable.  The regression has five key assumptions:
+
        Linear relationship
        Multivariate normality
        No or little multicollinearity
