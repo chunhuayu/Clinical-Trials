@@ -32,8 +32,8 @@
 > While a scatterplot allows you to check for autocorrelations, you can test the linear regression model for autocorrelation with the Durbin-Watson test.  
 > Durbin-Watson’s d tests the null hypothesis that the residuals are not linearly auto-correlated.  While d can assume values between 0 and 4, values around 2 indicate no autocorrelation.  As a rule of thumb values of 1.5 < d < 2.5 show that there is no auto-correlation in the data. However, the Durbin-Watson test only analyses linear autocorrelation and only between direct neighbors, which are first order effects.
 ## 5. Homoscedasticity
-* The last assumption of the linear regression analysis is homoscedasticity.  
-> The scatter plot is good way to check whether the data are homoscedastic (meaning the residuals are equal across the regression line).  The following scatter plots show examples of data that are not homoscedastic (i.e., heteroscedastic):
+* The last assumption of the linear regression analysis is homoscedasticity. Homoscedasticity, the assumption of equal population variances, should be focused in ANOVA method and multiple linear regression.
+> The scatter plot is good way to check whether the data are homoscedastic. The following scatter plots show examples of data that are not homoscedastic (i.e., heteroscedastic):
 
   ![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression07.jpg)![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression06.jpg)
   
