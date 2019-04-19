@@ -10,10 +10,13 @@
 ### A note about sample size.  
 * In Linear regression the sample size rule of thumb is that the regression analysis requires at least 20 cases per independent variable in the analysis.
 * First, linear regression needs the relationship between the independent and dependent variables to be linear.  It is also important to check for outliers since linear regression is sensitive to outlier effects.  The linearity assumption can best be tested with scatter plots, the following two examples depict two cases, where no and little linearity is present.
+
   ![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression01.jpg)![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression02.jpg)
+
 * Secondly, the linear regression analysis requires all variables to be multivariate normal.  This assumption can best be checked with a histogram or a Q-Q-Plot.  Normality can be checked with a goodness of fit test, e.g., the Kolmogorov-Smirnov test.  When the data is not normally distributed a non-linear transformation (e.g., log-transformation) might fix this issue.
 
-  ![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression03.jpg)![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression04.jpg)
+|:![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression03.jpg)![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression04.jpg):|
+
 * Thirdly, linear regression assumes that there is little or no multicollinearity in the data.  Multicollinearity occurs when the independent variables are too highly correlated with each other.
 # Multicollinearity may be tested with three central criteria:
 > * 1) Correlation matrix – when computing the matrix of Pearson’s Bivariate Correlation among all independent variables the correlation coefficients need to be smaller than 1.
