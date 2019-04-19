@@ -8,7 +8,9 @@
        Homoscedasticity
 
 ## 1. Linear Relationship
-* First, linear regression needs the relationship between the independent and dependent variables to be linear.  It is also important to check for outliers since linear regression is sensitive to outlier effects.  The linearity assumption can best be tested with scatter plots, the following two examples depict two cases, where no and little linearity is present.
+* First, linear regression needs the relationship between the independent and dependent variables to be linear.  
+> It is also important to check for outliers since linear regression is sensitive to outlier effects.  
+> The linearity assumption can best be tested with scatter plots, the following two examples depict two cases, where no and little linearity is present.
 
   ![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression01.jpg)![mou](https://www.statisticssolutions.com/wp-content/uploads/2010/01/linearregression02.jpg)
 
