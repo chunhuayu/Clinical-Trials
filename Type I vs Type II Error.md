@@ -7,3 +7,8 @@
 |:---:|:---:|:---:|
 |Reject null hypothesis|Type I Error (False Positive)| Correct Outcome(True Positive)|
 |Fail to reject null hypothesis|Correct outcome(True Negative)|Type II Error (False Negative)|
+
+# Example-Classic Criminal Dilemma
+* In colloquial usage, a type I error can be thought of as "convicting an innocent person" and type II error "letting a guilty person go free".
+* Null Hypothesis: innocent person
+* Alternative Hypothesis: guilty person
